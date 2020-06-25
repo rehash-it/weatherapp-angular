@@ -1,1 +1,11 @@
-<p>city-search works!</p>
+<form>
+  <mat-form-field>
+    <mat-icon matPrefix>search</mat-icon>
+    <input
+      matInput
+      placeholder="Enter city or zip"
+      aria-label="City or Zip"
+      [formControl]="search"
+    />
+  </mat-form-field>
+</form>

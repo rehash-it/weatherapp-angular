@@ -10,6 +10,8 @@ import { Component } from '@angular/core';
       <div class="mat-caption vertical-margin">
         Your city, your forecast, right now!
       </div>
+      <div fxLayoutAlign="center"><app-city-search></app-city-search></div>
+
       <div fxLayout="row">
         <div fxFlex></div>
         <mat-card fxFlex="300px">
