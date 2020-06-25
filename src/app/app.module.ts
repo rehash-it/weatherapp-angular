@@ -16,9 +16,11 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CitySearchComponent } from './city-search/city-search.component';
 
 @NgModule({
-  declarations: [AppComponent, CurrentWeatherComponent, SideNavComponent],
+  declarations: [AppComponent, CurrentWeatherComponent, SideNavComponent, CitySearchComponent],
   imports: [
     HttpClientModule,
     BrowserModule,
@@ -32,6 +34,8 @@ import { MatListModule } from '@angular/material/list';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [WeatherService],
   bootstrap: [AppComponent],
