@@ -6,7 +6,6 @@ import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [],
-
   imports: [MatButtonModule, MatToolbarModule, MatIconModule, MatCardModule],
   exports: [MatButtonModule, MatToolbarModule, MatIconModule, MatCardModule],
 })
